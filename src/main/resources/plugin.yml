@@ -1,0 +1,10 @@
+name: PhysicalTokens
+version: '1.0-SNAPSHOT'
+main: me.clutchmasterftw.physicaltokens.PhysicalTokens
+api-version: '1.19'
+depend: [TokenManager]
+commands:
+  tw:
+    description: "Used for withdrawing tokens from your token balance."
+    usage: "/tw (amount)"
+    aliases: [tokenwithdraw]

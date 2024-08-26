@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="PhysicalTokens:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/PhysicalTokens_jar</output-path>
+    <root id="archive" name="PhysicalTokens.jar">
+      <element id="module-output" name="PhysicalTokens" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/TokenManager-3.2.8.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
