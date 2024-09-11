@@ -5,8 +5,7 @@ import org.bukkit.Material;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
-import org.bukkit.event.block.BlockBreakEvent;
-import org.bukkit.inventory.ItemStack;
+import tech.mcprison.prison.spigot.api.PrisonMinesBlockBreakEvent;
 
 import java.util.logging.Logger;
 
@@ -18,7 +17,7 @@ public class TokenBlockBreak implements Listener {
     }
 
     @EventHandler
-    public void onBlockBreak(BlockBreakEvent e) {
+    public void onPrisonMineBlockBreak(PrisonMinesBlockBreakEvent e) {
         if(e.getBlock().getType() == Material.CYAN_CONCRETE) {
             Logger logger = plugin.getLogger();
             Player p = e.getPlayer();

@@ -14,6 +14,8 @@ import org.bukkit.inventory.ItemStack;
 import java.util.OptionalLong;
 import java.util.logging.Logger;
 
+import static me.clutchmasterftw.physicaltokens.PhysicalTokens.tokenManager;
+
 public class Redeem implements Listener {
     PhysicalTokens plugin;
 
@@ -26,7 +28,6 @@ public class Redeem implements Listener {
         Logger logger = plugin.getLogger();
         Player p = e.getPlayer();
         Action a = e.getAction();
-        TokenManager tokenManager = (TokenManager)Bukkit.getPluginManager().getPlugin("TokenManager");
         // Check if right-clicked or shift right-clicked
         if(p.getInventory().getItemInMainHand().isSimilar(utilities.tokenItem(1))) {
             if (!p.isSneaking() && a.isRightClick()) {

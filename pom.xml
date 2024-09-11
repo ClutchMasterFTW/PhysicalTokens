@@ -76,5 +76,11 @@
             <version>3.2.8</version>
             <scope>provided</scope>
         </dependency>
+        <dependency>
+            <groupId>com.github.PrisonTeam.Prison</groupId>
+            <artifactId>Prison</artifactId>
+            <version>v3.3.0-alpha.18a</version>
+            <scope>provided</scope>
+        </dependency>
     </dependencies>
 </project>

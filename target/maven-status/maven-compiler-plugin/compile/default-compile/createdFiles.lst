@@ -1,4 +1,5 @@
-me/clutchmasterftw/physicaltokens/utilities/utilities.class
-me/clutchmasterftw/physicaltokens/CommandTW.class
-me/clutchmasterftw/physicaltokens/PhysicalTokens.class
-me/clutchmasterftw/physicaltokens/Redeem.class
+me\clutchmasterftw\physicaltokens\PhysicalTokens.class
+me\clutchmasterftw\physicaltokens\TokenBlockBreak.class
+me\clutchmasterftw\physicaltokens\CommandTW.class
+me\clutchmasterftw\physicaltokens\utilities\utilities.class
+me\clutchmasterftw\physicaltokens\Redeem.class
